@@ -1,0 +1,12 @@
+query hobbies($limit: Int, $page: Int) {
+  hobbies(paginate: { limit: $limit, page: $page }) {
+    hobbies {
+      id
+      name
+    }
+    total
+    limit
+    page
+    pages
+  }
+}

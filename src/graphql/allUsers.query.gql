@@ -1,0 +1,9 @@
+query users{
+  users {
+    email
+    id
+    hobbies {
+      name
+    }
+  }
+}

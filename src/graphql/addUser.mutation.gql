@@ -1,0 +1,8 @@
+mutation addUser($name: String!, $email: String!, $password: String!) {
+  addUser(newUserData: { name: $name, email: $email, password: $password }) {
+    access_token
+    name
+    email
+    id
+  }
+}
