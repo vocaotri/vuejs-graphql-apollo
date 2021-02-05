@@ -1,4 +1,4 @@
-# hello-world
+# vuejs-graphql-apollo
 
 ## Project setup
 ```
